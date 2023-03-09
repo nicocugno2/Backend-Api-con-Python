@@ -1,10 +1,14 @@
 from fastapi import FastAPI
+from routers import users
+
+
 app = FastAPI()
+app.include_router(users.router)
 
 @app.get("/")
 async def root():
         return "holaaaa!"
 
 @app.get("/url")
-async def url():
-        return {"url_curso":"https://mouredev.com/python"} 
+async def mail():
+        return {"mail":"nicocugno2@gmail.com"} 

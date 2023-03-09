@@ -1,6 +1,6 @@
 # Backend-Api-con-Python
 
-> Backend whit FastApi and Mongo DB
+> Basic but complete backend with FastApi and Mongo DB
 >>FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard Python type hints
 >>Fast: Very high performance, on par with NodeJS and Go
 >>Fewer bugs: Reduce about 40% of human (developer) induced errors.
